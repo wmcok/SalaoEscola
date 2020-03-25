@@ -1,0 +1,1842 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="SfSkinManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="WizardControl1.BackButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="WizardControl1.BackButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="WizardControl1.BackButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 484</value>
+  </data>
+  <data name="WizardControl1.BackButton.Text" xml:space="preserve">
+    <value>&lt;&lt; Voltar</value>
+  </data>
+  <data name="lblValorTotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 25.25pt</value>
+  </data>
+  <data name="lblValorTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 19</value>
+  </data>
+  <data name="lblValorTotal.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="lblValorTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 41</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblValorTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="lblValorTotal.Text" xml:space="preserve">
+    <value>R$ 00,00</value>
+  </data>
+  <data name="&gt;&gt;lblValorTotal.Name" xml:space="preserve">
+    <value>lblValorTotal</value>
+  </data>
+  <data name="&gt;&gt;lblValorTotal.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;lblValorTotal.Parent" xml:space="preserve">
+    <value>GradientPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblValorTotal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AutoLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10.25pt</value>
+  </data>
+  <data name="AutoLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 2</value>
+  </data>
+  <data name="AutoLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="AutoLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="AutoLabel2.Text" xml:space="preserve">
+    <value>Valor Total Final</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel2.Name" xml:space="preserve">
+    <value>AutoLabel2</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel2.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel2.Parent" xml:space="preserve">
+    <value>GradientPanel2</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GradientPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 1</value>
+  </data>
+  <data name="GradientPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 64</value>
+  </data>
+  <data name="GradientPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;GradientPanel2.Name" xml:space="preserve">
+    <value>GradientPanel2</value>
+  </data>
+  <data name="&gt;&gt;GradientPanel2.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.GradientPanel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;GradientPanel2.Parent" xml:space="preserve">
+    <value>GradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;GradientPanel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 13</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Inclusão de Itens</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>GradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 30</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 14</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Informe os itens que compõe o Lançamento.</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>GradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GradientPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="GradientPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>585, 70</value>
+  </data>
+  <data name="GradientPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;GradientPanel1.Name" xml:space="preserve">
+    <value>GradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;GradientPanel1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.GradientPanel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;GradientPanel1.Parent" xml:space="preserve">
+    <value>WizardControl1</value>
+  </data>
+  <data name="&gt;&gt;GradientPanel1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="WizardControl1.CancelButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="WizardControl1.CancelButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="WizardControl1.CancelButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>510, 484</value>
+  </data>
+  <data name="WizardControl1.CancelButton.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="AutoLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 127</value>
+  </data>
+  <data name="AutoLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 14</value>
+  </data>
+  <data name="AutoLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="AutoLabel7.Text" xml:space="preserve">
+    <value>Valor Total</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel7.Name" xml:space="preserve">
+    <value>AutoLabel7</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel7.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel7.Parent" xml:space="preserve">
+    <value>PgLancamento</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AutoLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 66</value>
+  </data>
+  <data name="AutoLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 14</value>
+  </data>
+  <data name="AutoLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="AutoLabel6.Text" xml:space="preserve">
+    <value>Natureza</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel6.Name" xml:space="preserve">
+    <value>AutoLabel6</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel6.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel6.Parent" xml:space="preserve">
+    <value>PgLancamento</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AutoLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 8</value>
+  </data>
+  <data name="AutoLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 14</value>
+  </data>
+  <data name="AutoLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="AutoLabel5.Text" xml:space="preserve">
+    <value>Filial</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel5.Name" xml:space="preserve">
+    <value>AutoLabel5</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel5.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel5.Parent" xml:space="preserve">
+    <value>PgLancamento</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="AutoLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 199</value>
+  </data>
+  <data name="AutoLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 14</value>
+  </data>
+  <data name="AutoLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="AutoLabel4.Text" xml:space="preserve">
+    <value>Observação</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel4.Name" xml:space="preserve">
+    <value>AutoLabel4</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel4.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel4.Parent" xml:space="preserve">
+    <value>PgLancamento</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cboxNatureza.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10pt</value>
+  </data>
+  <data name="cboxNatureza.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 81</value>
+  </data>
+  <data name="cboxNatureza.Size" type="System.Drawing.Size, System.Drawing">
+    <value>496, 23</value>
+  </data>
+  <data name="cboxNatureza.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;cboxNatureza.Name" xml:space="preserve">
+    <value>cboxNatureza</value>
+  </data>
+  <data name="&gt;&gt;cboxNatureza.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboxNatureza.Parent" xml:space="preserve">
+    <value>PgLancamento</value>
+  </data>
+  <data name="&gt;&gt;cboxNatureza.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cboxFilial.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10pt</value>
+  </data>
+  <data name="cboxFilial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 23</value>
+  </data>
+  <data name="cboxFilial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>494, 23</value>
+  </data>
+  <data name="cboxFilial.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;cboxFilial.Name" xml:space="preserve">
+    <value>cboxFilial</value>
+  </data>
+  <data name="&gt;&gt;cboxFilial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboxFilial.Parent" xml:space="preserve">
+    <value>PgLancamento</value>
+  </data>
+  <data name="&gt;&gt;cboxFilial.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dtInicio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt</value>
+  </data>
+  <data name="dtInicio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 148</value>
+  </data>
+  <data name="dtInicio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 22</value>
+  </data>
+  <data name="dtInicio.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;dtInicio.Name" xml:space="preserve">
+    <value>dtInicio</value>
+  </data>
+  <data name="&gt;&gt;dtInicio.Type" xml:space="preserve">
+    <value>Syncfusion.WinForms.Input.SfDateTimeEdit, Syncfusion.SfInput.WinForms, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;dtInicio.Parent" xml:space="preserve">
+    <value>PgLancamento</value>
+  </data>
+  <data name="&gt;&gt;dtInicio.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtValorTotalLanc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="txtValorTotalLanc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 143</value>
+  </data>
+  <data name="txtValorTotalLanc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 27</value>
+  </data>
+  <data name="txtValorTotalLanc.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="txtValorTotalLanc.Text" xml:space="preserve">
+    <value>1,00</value>
+  </data>
+  <data name="&gt;&gt;txtValorTotalLanc.Name" xml:space="preserve">
+    <value>txtValorTotalLanc</value>
+  </data>
+  <data name="&gt;&gt;txtValorTotalLanc.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.DoubleTextBox, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;txtValorTotalLanc.Parent" xml:space="preserve">
+    <value>PgLancamento</value>
+  </data>
+  <data name="&gt;&gt;txtValorTotalLanc.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="AutoLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 128</value>
+  </data>
+  <data name="AutoLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 14</value>
+  </data>
+  <data name="AutoLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="AutoLabel3.Text" xml:space="preserve">
+    <value>Emissão</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel3.Name" xml:space="preserve">
+    <value>AutoLabel3</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel3.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel3.Parent" xml:space="preserve">
+    <value>PgLancamento</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="AutoLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 127</value>
+  </data>
+  <data name="AutoLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 14</value>
+  </data>
+  <data name="AutoLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="AutoLabel1.Text" xml:space="preserve">
+    <value>Código de Lançamento</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel1.Name" xml:space="preserve">
+    <value>AutoLabel1</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel1.Parent" xml:space="preserve">
+    <value>PgLancamento</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtObservacao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="txtObservacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 215</value>
+  </data>
+  <data name="txtObservacao.MaxLength" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="txtObservacao.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtObservacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>496, 142</value>
+  </data>
+  <data name="txtObservacao.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;txtObservacao.Name" xml:space="preserve">
+    <value>txtObservacao</value>
+  </data>
+  <data name="&gt;&gt;txtObservacao.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TextBoxExt, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;txtObservacao.Parent" xml:space="preserve">
+    <value>PgLancamento</value>
+  </data>
+  <data name="&gt;&gt;txtObservacao.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtCodigo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10pt</value>
+  </data>
+  <data name="txtCodigo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 146</value>
+  </data>
+  <data name="txtCodigo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 24</value>
+  </data>
+  <data name="txtCodigo.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;txtCodigo.Name" xml:space="preserve">
+    <value>txtCodigo</value>
+  </data>
+  <data name="&gt;&gt;txtCodigo.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TextBoxExt, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;txtCodigo.Parent" xml:space="preserve">
+    <value>PgLancamento</value>
+  </data>
+  <data name="&gt;&gt;txtCodigo.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="PgLancamento.Description" xml:space="preserve">
+    <value>Informa os dados Necessários para o Lançamento.</value>
+  </data>
+  <data name="PgLancamento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="AutoLabel14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AutoLabel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 59</value>
+  </data>
+  <data name="AutoLabel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 14</value>
+  </data>
+  <data name="AutoLabel14.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="AutoLabel14.Text" xml:space="preserve">
+    <value>Pr. Unit Vendido</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel14.Name" xml:space="preserve">
+    <value>AutoLabel14</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel14.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel14.Parent" xml:space="preserve">
+    <value>Pg2Produto</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel14.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtPrVendido.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14pt</value>
+  </data>
+  <data name="txtPrVendido.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 75</value>
+  </data>
+  <data name="txtPrVendido.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 30</value>
+  </data>
+  <data name="txtPrVendido.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="txtPrVendido.Text" xml:space="preserve">
+    <value>0,00</value>
+  </data>
+  <data name="&gt;&gt;txtPrVendido.Name" xml:space="preserve">
+    <value>txtPrVendido</value>
+  </data>
+  <data name="&gt;&gt;txtPrVendido.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.DoubleTextBox, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;txtPrVendido.Parent" xml:space="preserve">
+    <value>Pg2Produto</value>
+  </data>
+  <data name="&gt;&gt;txtPrVendido.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AutoLabel12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10.75pt</value>
+  </data>
+  <data name="AutoLabel12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AutoLabel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 163</value>
+  </data>
+  <data name="AutoLabel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 18</value>
+  </data>
+  <data name="AutoLabel12.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="AutoLabel12.Text" xml:space="preserve">
+    <value>Itens Lançados</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel12.Name" xml:space="preserve">
+    <value>AutoLabel12</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel12.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel12.Parent" xml:space="preserve">
+    <value>Pg2Produto</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel12.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="AutoLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 60</value>
+  </data>
+  <data name="AutoLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 14</value>
+  </data>
+  <data name="AutoLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="AutoLabel8.Text" xml:space="preserve">
+    <value>Pr. Unit. de Tabela</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel8.Name" xml:space="preserve">
+    <value>AutoLabel8</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel8.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel8.Parent" xml:space="preserve">
+    <value>Pg2Produto</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel8.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtPreco.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14pt</value>
+  </data>
+  <data name="txtPreco.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 76</value>
+  </data>
+  <data name="txtPreco.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 30</value>
+  </data>
+  <data name="txtPreco.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="txtPreco.Text" xml:space="preserve">
+    <value>1,00</value>
+  </data>
+  <data name="&gt;&gt;txtPreco.Name" xml:space="preserve">
+    <value>txtPreco</value>
+  </data>
+  <data name="&gt;&gt;txtPreco.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.DoubleTextBox, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;txtPreco.Parent" xml:space="preserve">
+    <value>Pg2Produto</value>
+  </data>
+  <data name="&gt;&gt;txtPreco.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="AutoLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 59</value>
+  </data>
+  <data name="AutoLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 14</value>
+  </data>
+  <data name="AutoLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="AutoLabel9.Text" xml:space="preserve">
+    <value>Valor Total do Item</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel9.Name" xml:space="preserve">
+    <value>AutoLabel9</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel9.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel9.Parent" xml:space="preserve">
+    <value>Pg2Produto</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel9.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="AutoLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 60</value>
+  </data>
+  <data name="AutoLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 14</value>
+  </data>
+  <data name="AutoLabel10.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="AutoLabel10.Text" xml:space="preserve">
+    <value>Quantidade</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel10.Name" xml:space="preserve">
+    <value>AutoLabel10</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel10.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel10.Parent" xml:space="preserve">
+    <value>Pg2Produto</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel10.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtValorTotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14pt</value>
+  </data>
+  <data name="txtValorTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 76</value>
+  </data>
+  <data name="txtValorTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 30</value>
+  </data>
+  <data name="txtValorTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="txtValorTotal.Text" xml:space="preserve">
+    <value>0,00</value>
+  </data>
+  <data name="&gt;&gt;txtValorTotal.Name" xml:space="preserve">
+    <value>txtValorTotal</value>
+  </data>
+  <data name="&gt;&gt;txtValorTotal.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.DoubleTextBox, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;txtValorTotal.Parent" xml:space="preserve">
+    <value>Pg2Produto</value>
+  </data>
+  <data name="&gt;&gt;txtValorTotal.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtQtde.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14pt</value>
+  </data>
+  <data name="txtQtde.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 76</value>
+  </data>
+  <data name="txtQtde.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 30</value>
+  </data>
+  <data name="txtQtde.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="txtQtde.Text" xml:space="preserve">
+    <value>0,00</value>
+  </data>
+  <data name="&gt;&gt;txtQtde.Name" xml:space="preserve">
+    <value>txtQtde</value>
+  </data>
+  <data name="&gt;&gt;txtQtde.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.DoubleTextBox, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;txtQtde.Parent" xml:space="preserve">
+    <value>Pg2Produto</value>
+  </data>
+  <data name="&gt;&gt;txtQtde.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="AutoLabel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 11</value>
+  </data>
+  <data name="AutoLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 14</value>
+  </data>
+  <data name="AutoLabel11.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="AutoLabel11.Text" xml:space="preserve">
+    <value>Produto</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel11.Name" xml:space="preserve">
+    <value>AutoLabel11</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel11.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel11.Parent" xml:space="preserve">
+    <value>Pg2Produto</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel11.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cboxProdutos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10pt</value>
+  </data>
+  <data name="cboxProdutos.Items" xml:space="preserve">
+    <value>Curso</value>
+  </data>
+  <data name="cboxProdutos.Items1" xml:space="preserve">
+    <value>Aplicação</value>
+  </data>
+  <data name="cboxProdutos.Items2" xml:space="preserve">
+    <value>Tratamento</value>
+  </data>
+  <data name="cboxProdutos.Items3" xml:space="preserve">
+    <value>Produto</value>
+  </data>
+  <data name="cboxProdutos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 27</value>
+  </data>
+  <data name="cboxProdutos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>456, 23</value>
+  </data>
+  <data name="cboxProdutos.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;cboxProdutos.Name" xml:space="preserve">
+    <value>cboxProdutos</value>
+  </data>
+  <data name="&gt;&gt;cboxProdutos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboxProdutos.Parent" xml:space="preserve">
+    <value>Pg2Produto</value>
+  </data>
+  <data name="&gt;&gt;cboxProdutos.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 18pt</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 61</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 29</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Aguarde! Carregando . . .</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>msgAguarde</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="msgAguarde.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 208</value>
+  </data>
+  <data name="msgAguarde.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 152</value>
+  </data>
+  <data name="msgAguarde.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="msgAguarde.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;msgAguarde.Name" xml:space="preserve">
+    <value>msgAguarde</value>
+  </data>
+  <data name="&gt;&gt;msgAguarde.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;msgAguarde.Parent" xml:space="preserve">
+    <value>Pg2Produto</value>
+  </data>
+  <data name="&gt;&gt;msgAguarde.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="AutoLabel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 12</value>
+  </data>
+  <data name="AutoLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 14</value>
+  </data>
+  <data name="AutoLabel13.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="AutoLabel13.Text" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel13.Name" xml:space="preserve">
+    <value>AutoLabel13</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel13.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel13.Parent" xml:space="preserve">
+    <value>Pg2Produto</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel13.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnGravar.AccessibleName" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="btnGravar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt</value>
+  </data>
+  <data name="btnGravar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 3</value>
+  </data>
+  <data name="btnGravar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 36</value>
+  </data>
+  <data name="btnGravar.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnGravar.Text" xml:space="preserve">
+    <value>Gravar Item</value>
+  </data>
+  <data name="&gt;&gt;btnGravar.Name" xml:space="preserve">
+    <value>btnGravar</value>
+  </data>
+  <data name="&gt;&gt;btnGravar.Type" xml:space="preserve">
+    <value>Syncfusion.WinForms.Controls.SfButton, Syncfusion.Core.WinForms, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;btnGravar.Parent" xml:space="preserve">
+    <value>GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;btnGravar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCancelar.AccessibleName" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="btnCancelar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt</value>
+  </data>
+  <data name="btnCancelar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 2</value>
+  </data>
+  <data name="btnCancelar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 36</value>
+  </data>
+  <data name="btnCancelar.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnCancelar.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="&gt;&gt;btnCancelar.Name" xml:space="preserve">
+    <value>btnCancelar</value>
+  </data>
+  <data name="&gt;&gt;btnCancelar.Type" xml:space="preserve">
+    <value>Syncfusion.WinForms.Controls.SfButton, Syncfusion.Core.WinForms, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;btnCancelar.Parent" xml:space="preserve">
+    <value>GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;btnCancelar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnExcluir.AccessibleName" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="btnExcluir.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt</value>
+  </data>
+  <data name="btnExcluir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 3</value>
+  </data>
+  <data name="btnExcluir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 36</value>
+  </data>
+  <data name="btnExcluir.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnExcluir.Text" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="&gt;&gt;btnExcluir.Name" xml:space="preserve">
+    <value>btnExcluir</value>
+  </data>
+  <data name="&gt;&gt;btnExcluir.Type" xml:space="preserve">
+    <value>Syncfusion.WinForms.Controls.SfButton, Syncfusion.Core.WinForms, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;btnExcluir.Parent" xml:space="preserve">
+    <value>GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;btnExcluir.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnAlterar.AccessibleName" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="btnAlterar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt</value>
+  </data>
+  <data name="btnAlterar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 3</value>
+  </data>
+  <data name="btnAlterar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 36</value>
+  </data>
+  <data name="btnAlterar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnAlterar.Text" xml:space="preserve">
+    <value>Alterar</value>
+  </data>
+  <data name="&gt;&gt;btnAlterar.Name" xml:space="preserve">
+    <value>btnAlterar</value>
+  </data>
+  <data name="&gt;&gt;btnAlterar.Type" xml:space="preserve">
+    <value>Syncfusion.WinForms.Controls.SfButton, Syncfusion.Core.WinForms, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;btnAlterar.Parent" xml:space="preserve">
+    <value>GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;btnAlterar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnInserir.AccessibleName" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="btnInserir.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt</value>
+  </data>
+  <data name="btnInserir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 2</value>
+  </data>
+  <data name="btnInserir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 36</value>
+  </data>
+  <data name="btnInserir.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnInserir.Text" xml:space="preserve">
+    <value>Inserir</value>
+  </data>
+  <data name="&gt;&gt;btnInserir.Name" xml:space="preserve">
+    <value>btnInserir</value>
+  </data>
+  <data name="&gt;&gt;btnInserir.Type" xml:space="preserve">
+    <value>Syncfusion.WinForms.Controls.SfButton, Syncfusion.Core.WinForms, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;btnInserir.Parent" xml:space="preserve">
+    <value>GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;btnInserir.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GradientPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 114</value>
+  </data>
+  <data name="GradientPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>563, 45</value>
+  </data>
+  <data name="GradientPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;GradientPanel3.Name" xml:space="preserve">
+    <value>GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;GradientPanel3.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.GradientPanel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;GradientPanel3.Parent" xml:space="preserve">
+    <value>Pg2Produto</value>
+  </data>
+  <data name="&gt;&gt;GradientPanel3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="TextBoxExt1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10pt</value>
+  </data>
+  <data name="TextBoxExt1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 27</value>
+  </data>
+  <data name="TextBoxExt1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 24</value>
+  </data>
+  <data name="TextBoxExt1.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;TextBoxExt1.Name" xml:space="preserve">
+    <value>TextBoxExt1</value>
+  </data>
+  <data name="&gt;&gt;TextBoxExt1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TextBoxExt, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;TextBoxExt1.Parent" xml:space="preserve">
+    <value>Pg2Produto</value>
+  </data>
+  <data name="&gt;&gt;TextBoxExt1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="dgResultado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 183</value>
+  </data>
+  <data name="dgResultado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 213</value>
+  </data>
+  <data name="dgResultado.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="&gt;&gt;dgResultado.Name" xml:space="preserve">
+    <value>dgResultado</value>
+  </data>
+  <data name="&gt;&gt;dgResultado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgResultado.Parent" xml:space="preserve">
+    <value>Pg2Produto</value>
+  </data>
+  <data name="&gt;&gt;dgResultado.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Pg2Produto.Description" xml:space="preserve">
+    <value>Informe os itens que compõe o Lançamento.</value>
+  </data>
+  <data name="Pg2Produto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="AutoLabel17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AutoLabel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 3</value>
+  </data>
+  <data name="AutoLabel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 14</value>
+  </data>
+  <data name="AutoLabel17.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="AutoLabel17.Text" xml:space="preserve">
+    <value>Valor Pago</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel17.Name" xml:space="preserve">
+    <value>AutoLabel17</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel17.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel17.Parent" xml:space="preserve">
+    <value>panelFinPagamento</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel17.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dtDataPagamento.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10pt</value>
+  </data>
+  <data name="dtDataPagamento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 21</value>
+  </data>
+  <data name="dtDataPagamento.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dtDataPagamento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 22</value>
+  </data>
+  <data name="dtDataPagamento.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="&gt;&gt;dtDataPagamento.Name" xml:space="preserve">
+    <value>dtDataPagamento</value>
+  </data>
+  <data name="&gt;&gt;dtDataPagamento.Type" xml:space="preserve">
+    <value>Syncfusion.WinForms.Input.SfDateTimeEdit, Syncfusion.SfInput.WinForms, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;dtDataPagamento.Parent" xml:space="preserve">
+    <value>panelFinPagamento</value>
+  </data>
+  <data name="&gt;&gt;dtDataPagamento.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtValorPago.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10pt</value>
+  </data>
+  <data name="txtValorPago.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 19</value>
+  </data>
+  <data name="txtValorPago.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 24</value>
+  </data>
+  <data name="txtValorPago.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="txtValorPago.Text" xml:space="preserve">
+    <value>1,00</value>
+  </data>
+  <data name="&gt;&gt;txtValorPago.Name" xml:space="preserve">
+    <value>txtValorPago</value>
+  </data>
+  <data name="&gt;&gt;txtValorPago.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.DoubleTextBox, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;txtValorPago.Parent" xml:space="preserve">
+    <value>panelFinPagamento</value>
+  </data>
+  <data name="&gt;&gt;txtValorPago.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="AutoLabel18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AutoLabel18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 3</value>
+  </data>
+  <data name="AutoLabel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 14</value>
+  </data>
+  <data name="AutoLabel18.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="AutoLabel18.Text" xml:space="preserve">
+    <value>Data de Pagamento</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel18.Name" xml:space="preserve">
+    <value>AutoLabel18</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel18.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel18.Parent" xml:space="preserve">
+    <value>panelFinPagamento</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel18.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelFinPagamento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 83</value>
+  </data>
+  <data name="panelFinPagamento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 47</value>
+  </data>
+  <data name="panelFinPagamento.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;panelFinPagamento.Name" xml:space="preserve">
+    <value>panelFinPagamento</value>
+  </data>
+  <data name="&gt;&gt;panelFinPagamento.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelFinPagamento.Parent" xml:space="preserve">
+    <value>Pg3Gravar</value>
+  </data>
+  <data name="&gt;&gt;panelFinPagamento.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBaixarFinanceiro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBaixarFinanceiro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBaixarFinanceiro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 86</value>
+  </data>
+  <data name="checkBaixarFinanceiro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 18</value>
+  </data>
+  <data name="checkBaixarFinanceiro.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="checkBaixarFinanceiro.Text" xml:space="preserve">
+    <value>Baixar Financeiro</value>
+  </data>
+  <data name="&gt;&gt;checkBaixarFinanceiro.Name" xml:space="preserve">
+    <value>checkBaixarFinanceiro</value>
+  </data>
+  <data name="&gt;&gt;checkBaixarFinanceiro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBaixarFinanceiro.Parent" xml:space="preserve">
+    <value>Pg3Gravar</value>
+  </data>
+  <data name="&gt;&gt;checkBaixarFinanceiro.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkGerarFinanceiro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkGerarFinanceiro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkGerarFinanceiro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 54</value>
+  </data>
+  <data name="checkGerarFinanceiro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 18</value>
+  </data>
+  <data name="checkGerarFinanceiro.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="checkGerarFinanceiro.Text" xml:space="preserve">
+    <value>Gerar Financeiro</value>
+  </data>
+  <data name="&gt;&gt;checkGerarFinanceiro.Name" xml:space="preserve">
+    <value>checkGerarFinanceiro</value>
+  </data>
+  <data name="&gt;&gt;checkGerarFinanceiro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkGerarFinanceiro.Parent" xml:space="preserve">
+    <value>Pg3Gravar</value>
+  </data>
+  <data name="&gt;&gt;checkGerarFinanceiro.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="AutoLabel15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AutoLabel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 7</value>
+  </data>
+  <data name="AutoLabel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 14</value>
+  </data>
+  <data name="AutoLabel15.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="AutoLabel15.Text" xml:space="preserve">
+    <value>Valor </value>
+  </data>
+  <data name="&gt;&gt;AutoLabel15.Name" xml:space="preserve">
+    <value>AutoLabel15</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel15.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel15.Parent" xml:space="preserve">
+    <value>panelFinVencimento</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel15.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dtDataVencimento.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10pt</value>
+  </data>
+  <data name="dtDataVencimento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 25</value>
+  </data>
+  <data name="dtDataVencimento.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dtDataVencimento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 22</value>
+  </data>
+  <data name="dtDataVencimento.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dtDataVencimento.Name" xml:space="preserve">
+    <value>dtDataVencimento</value>
+  </data>
+  <data name="&gt;&gt;dtDataVencimento.Type" xml:space="preserve">
+    <value>Syncfusion.WinForms.Input.SfDateTimeEdit, Syncfusion.SfInput.WinForms, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;dtDataVencimento.Parent" xml:space="preserve">
+    <value>panelFinVencimento</value>
+  </data>
+  <data name="&gt;&gt;dtDataVencimento.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtValorVenc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10pt</value>
+  </data>
+  <data name="txtValorVenc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 23</value>
+  </data>
+  <data name="txtValorVenc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 24</value>
+  </data>
+  <data name="txtValorVenc.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtValorVenc.Text" xml:space="preserve">
+    <value>1,00</value>
+  </data>
+  <data name="&gt;&gt;txtValorVenc.Name" xml:space="preserve">
+    <value>txtValorVenc</value>
+  </data>
+  <data name="&gt;&gt;txtValorVenc.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.DoubleTextBox, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;txtValorVenc.Parent" xml:space="preserve">
+    <value>panelFinVencimento</value>
+  </data>
+  <data name="&gt;&gt;txtValorVenc.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="AutoLabel16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AutoLabel16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 7</value>
+  </data>
+  <data name="AutoLabel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 14</value>
+  </data>
+  <data name="AutoLabel16.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="AutoLabel16.Text" xml:space="preserve">
+    <value>Data de Vencimento</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel16.Name" xml:space="preserve">
+    <value>AutoLabel16</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel16.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.AutoLabel, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel16.Parent" xml:space="preserve">
+    <value>panelFinVencimento</value>
+  </data>
+  <data name="&gt;&gt;AutoLabel16.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelFinVencimento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 25</value>
+  </data>
+  <data name="panelFinVencimento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 52</value>
+  </data>
+  <data name="panelFinVencimento.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="&gt;&gt;panelFinVencimento.Name" xml:space="preserve">
+    <value>panelFinVencimento</value>
+  </data>
+  <data name="&gt;&gt;panelFinVencimento.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelFinVencimento.Parent" xml:space="preserve">
+    <value>Pg3Gravar</value>
+  </data>
+  <data name="&gt;&gt;panelFinVencimento.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 13pt</value>
+  </data>
+  <data name="Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 155</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 22</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Estatus de preenchimento:</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>Pg3Gravar</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkList.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkList.Items" xml:space="preserve">
+    <value>Filial</value>
+  </data>
+  <data name="checkList.Items1" xml:space="preserve">
+    <value>Natureza</value>
+  </data>
+  <data name="checkList.Items2" xml:space="preserve">
+    <value>Descrição do Lançamento / Observação</value>
+  </data>
+  <data name="checkList.Items3" xml:space="preserve">
+    <value>Cadastro de Itens</value>
+  </data>
+  <data name="checkList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 180</value>
+  </data>
+  <data name="checkList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 72</value>
+  </data>
+  <data name="checkList.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;checkList.Name" xml:space="preserve">
+    <value>checkList</value>
+  </data>
+  <data name="&gt;&gt;checkList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkList.Parent" xml:space="preserve">
+    <value>Pg3Gravar</value>
+  </data>
+  <data name="&gt;&gt;checkList.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblErros.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblErros.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 13pt</value>
+  </data>
+  <data name="lblErros.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 255</value>
+  </data>
+  <data name="lblErros.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 38</value>
+  </data>
+  <data name="lblErros.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblErros.Text" xml:space="preserve">
+    <value>Deseja salvar este Lançamento?</value>
+  </data>
+  <data name="&gt;&gt;lblErros.Name" xml:space="preserve">
+    <value>lblErros</value>
+  </data>
+  <data name="&gt;&gt;lblErros.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblErros.Parent" xml:space="preserve">
+    <value>Pg3Gravar</value>
+  </data>
+  <data name="&gt;&gt;lblErros.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnGravarLancamento.AccessibleName" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="btnGravarLancamento.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt</value>
+  </data>
+  <data name="btnGravarLancamento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 296</value>
+  </data>
+  <data name="btnGravarLancamento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 74</value>
+  </data>
+  <data name="btnGravarLancamento.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnGravarLancamento.Text" xml:space="preserve">
+    <value>Gravar Lançamento</value>
+  </data>
+  <data name="&gt;&gt;btnGravarLancamento.Name" xml:space="preserve">
+    <value>btnGravarLancamento</value>
+  </data>
+  <data name="&gt;&gt;btnGravarLancamento.Type" xml:space="preserve">
+    <value>Syncfusion.WinForms.Controls.SfButton, Syncfusion.Core.WinForms, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;btnGravarLancamento.Parent" xml:space="preserve">
+    <value>Pg3Gravar</value>
+  </data>
+  <data name="&gt;&gt;btnGravarLancamento.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Pg3Gravar.Description" xml:space="preserve">
+    <value>Deseja salvar este Lançamento?</value>
+  </data>
+  <data name="Pg3Gravar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Pg3Gravar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>585, 401</value>
+  </data>
+  <data name="Pg3Gravar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Pg3Gravar.Title" xml:space="preserve">
+    <value>Salvar o Lançamento?</value>
+  </data>
+  <data name="&gt;&gt;Pg3Gravar.Name" xml:space="preserve">
+    <value>Pg3Gravar</value>
+  </data>
+  <data name="&gt;&gt;Pg3Gravar.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.WizardControlPage, Syncfusion.Tools.Windows, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;Pg3Gravar.Parent" xml:space="preserve">
+    <value>WizardContainer1</value>
+  </data>
+  <data name="&gt;&gt;Pg3Gravar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Pg2Produto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>585, 401</value>
+  </data>
+  <data name="Pg2Produto.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Pg2Produto.Title" xml:space="preserve">
+    <value>Inclusão de Itens</value>
+  </data>
+  <data name="&gt;&gt;Pg2Produto.Name" xml:space="preserve">
+    <value>Pg2Produto</value>
+  </data>
+  <data name="&gt;&gt;Pg2Produto.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.WizardControlPage, Syncfusion.Tools.Windows, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;Pg2Produto.Parent" xml:space="preserve">
+    <value>WizardContainer1</value>
+  </data>
+  <data name="&gt;&gt;Pg2Produto.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PgLancamento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>585, 401</value>
+  </data>
+  <data name="PgLancamento.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PgLancamento.Title" xml:space="preserve">
+    <value>Dados do Lançamento</value>
+  </data>
+  <data name="&gt;&gt;PgLancamento.Name" xml:space="preserve">
+    <value>PgLancamento</value>
+  </data>
+  <data name="&gt;&gt;PgLancamento.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.WizardControlPage, Syncfusion.Tools.Windows, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;PgLancamento.Parent" xml:space="preserve">
+    <value>WizardContainer1</value>
+  </data>
+  <data name="&gt;&gt;PgLancamento.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="WizardContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 70</value>
+  </data>
+  <data name="WizardContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>585, 401</value>
+  </data>
+  <data name="WizardContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;WizardContainer1.Name" xml:space="preserve">
+    <value>WizardContainer1</value>
+  </data>
+  <data name="&gt;&gt;WizardContainer1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.WizardContainer, Syncfusion.Tools.Windows, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;WizardContainer1.Parent" xml:space="preserve">
+    <value>WizardControl1</value>
+  </data>
+  <data name="&gt;&gt;WizardContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="WizardControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="WizardControl1.FinishButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="WizardControl1.FinishButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="WizardControl1.FinishButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="WizardControl1.FinishButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>505, 484</value>
+  </data>
+  <data name="WizardControl1.FinishButton.Text" xml:space="preserve">
+    <value>Gravar</value>
+  </data>
+  <data name="WizardControl1.FinishButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="WizardControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.75pt</value>
+  </data>
+  <data name="WizardControl1.HelpButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="WizardControl1.HelpButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="WizardControl1.HelpButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>720, 509</value>
+  </data>
+  <data name="WizardControl1.HelpButton.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="WizardControl1.HelpButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="WizardControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="WizardControl1.NextButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="WizardControl1.NextButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="WizardControl1.NextButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 484</value>
+  </data>
+  <data name="WizardControl1.NextButton.Text" xml:space="preserve">
+    <value>Próximo &gt;&gt;</value>
+  </data>
+  <data name="WizardControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>585, 512</value>
+  </data>
+  <data name="WizardControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;WizardControl1.Name" xml:space="preserve">
+    <value>WizardControl1</value>
+  </data>
+  <data name="&gt;&gt;WizardControl1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.WizardControl, Syncfusion.Tools.Windows, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;WizardControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WizardControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>585, 512</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Cadastro de Lançamentos</value>
+  </data>
+  <data name="&gt;&gt;SfSkinManager1.Name" xml:space="preserve">
+    <value>SfSkinManager1</value>
+  </data>
+  <data name="&gt;&gt;SfSkinManager1.Type" xml:space="preserve">
+    <value>Syncfusion.WinForms.Controls.SfSkinManager, Syncfusion.Core.WinForms, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Office2010Form, Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+</root>
